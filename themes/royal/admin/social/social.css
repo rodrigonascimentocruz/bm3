@@ -1,0 +1,35 @@
+.redux-container .redux-list .select2-container {
+	margin-bottom:10px;
+	width:100%;
+}
+
+.redux-container .redux-accordion-group {
+	padding:5px 0px;
+}
+
+.redux-container .redux-accordion-group.hidden {
+	display:none;
+}
+
+.redux-container .redux-accordion-group h3 {
+	border:1px solid #dfdfdf;
+	cursor:move;
+	font-weight:bold;
+	padding:0 10px 0 30px;
+	height:40px;
+	line-height:40px!important;
+	background-color:#f1f1f1;
+	overflow:hidden;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	text-align:left;
+	margin-bottom:0px;
+}
+.redux-container .redux-remove {
+	float:right;
+}
+
+.redux-container .redux_social_add_remove {
+	margin-bottom:10px;
+}

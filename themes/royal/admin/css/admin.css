@@ -1,0 +1,9 @@
+.icon-vc { 
+	background-image:url(../images/icon-vc.png) !important;
+}
+
+#accordion-section-colors,
+#accordion-section-header_image,
+#accordion-section-background_image {
+  display:none !important;
+}

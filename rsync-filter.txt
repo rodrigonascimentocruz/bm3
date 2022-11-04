@@ -1,0 +1,9 @@
+- .git/
+- DOCKER_ENV
+- Dockerfile-php-build
+- output.log
+- docker_tag
+- node_modules/
+- wordpress/wp-content/
+- .env
+- rsync-filter.txt

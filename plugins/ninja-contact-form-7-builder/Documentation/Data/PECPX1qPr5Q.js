@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["EI7dx"]); }
+
+__d("IntlVariationResolverImpl",["invariant","IntlNumberType","IntlVariations","IntlViewerContext"],(function(a,b,c,d,e,f,g){var h="_1";a={EXACTLY_ONE:h,getNumberVariations:function(a){var c=b("IntlNumberType").get(b("IntlViewerContext").locale).getVariation(a);c&b("IntlVariations").BITMASK_NUMBER||g(0,481);return a===1?[h,c,"*"]:[c,"*"]},getGenderVariations:function(a){a&b("IntlVariations").BITMASK_GENDER||g(0,482);return[a,"*"]}};e.exports=a}),null);

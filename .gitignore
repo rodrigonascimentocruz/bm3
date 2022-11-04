@@ -1,0 +1,15 @@
+vendor/
+wordpress
+mysql
+plugins/*
+mu-plugins/*
+!plugins/envato-market
+!plugins/js_composer
+!plugins/ninja-contact-form-7-builder
+!plugins/redux-framework
+!plugins/royal
+!plugins/sitepress-multilingual-cms
+!plugins/wp-file-manager
+!plugins/wpml-string-translation
+!plugins/wpml-translation-management
+!plugins/gravityforms

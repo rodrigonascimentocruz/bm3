@@ -1,0 +1,38 @@
+#wpadminbar, 
+#wpfooter, 
+#adminmenumain, 
+#post-body-content, 
+#post-body.columns-2 #postbox-container-1, 
+.wrap > h1, 
+textarea#wpcf7-form, 
+#postbox-container-2 > p.submit, 
+#contact-form-editor-tabs, 
+.keyboard-interaction {
+    display: none;
+}
+/**/
+iframe.cf7-vc-iframe-fullscreen_bak {
+    height: 290px;
+}
+/**/
+#contact-form-editor .contact-form-editor-panel {
+    border-color: rgba(0, 0, 0, 0);
+}
+#wpcf7-admin-form-element {
+  background-color: #f5f5f5;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 9;
+}
+#poststuff {
+    padding-top: 0;
+}
+#poststuff #post-body.columns-2 {
+    margin-right: 0;
+}
+#wpcontent {
+    margin-left: 0;
+}

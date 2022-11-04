@@ -1,0 +1,19 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">our-clients</custom-type>
+		<custom-type translate="1">our-team</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+	</custom-types>
+	<taxonomies>
+		<taxonomy translate="1">portfolio-category</taxonomy>
+	</taxonomies>
+	<admin-texts>
+		<key name="royal_sections"/>
+		<key name="royalConfig">
+			<key name="contact-template"/>
+			<key name="map-marker-popup-title"/>
+			<key name="map-marker-popup-text"/>
+			<key name="footer-text"/>
+		</key>
+	</admin-texts>
+</wpml-config>

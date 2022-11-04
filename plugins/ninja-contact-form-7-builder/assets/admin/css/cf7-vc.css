@@ -1,0 +1,59 @@
+.cf7-vc-iframe-fullscreen {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100% !important;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 999999;
+}
+#cf7-vc-main-ifrm-wrap > img {
+  display: block;
+  margin: 20px auto;
+}
+#cf7-vc-main-ifrm-wrap > h3 {
+  color: #656565;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+.cf7-start-editing-btn {
+  background-color: #7bcd2d;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-family: "Open Sans",Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding: 11px 28px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+}
+.cf7-start-editing-btn:focus,
+.cf7-start-editing-btn:active {
+  box-shadow: none;
+  color: #ffffff;
+}
+.cf7-start-editing-btn > i._icon {
+  background: #7bcd2d url("../img/vc_ui-sprite.png") no-repeat scroll 0 -247px;
+  display: inline-block;
+  height: 25px;
+  margin-right: 8px;
+  vertical-align: middle;
+  width: 25px;
+}
+
+.cf7-start-editing-btn:hover {
+  color: #fff;
+}
+#cf7-vc-main-ifrm-wrap {
+    text-align: center;
+}

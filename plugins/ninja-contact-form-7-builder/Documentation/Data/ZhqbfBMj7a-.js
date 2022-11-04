@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["apRD+"]); }
+
+__d("IntlVariationResolver",["IntlHoldoutGK","IntlVariationResolverImpl"],(function(a,b,c,d,e,f){var g=b("IntlVariationResolverImpl").EXACTLY_ONE;a={getNumberVariations:function(a){return b("IntlHoldoutGK").inIntlHoldout?a===1?[g,"*"]:["*"]:b("IntlVariationResolverImpl").getNumberVariations(a)},getGenderVariations:function(a){return b("IntlHoldoutGK").inIntlHoldout?["*"]:b("IntlVariationResolverImpl").getGenderVariations(a)}};e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["IX1W5"]); }
+
+__d("stableStringify",[],(function(a,b,c,d,e,f){"use strict";__p&&__p();function g(a){return a!==null&&Object.prototype.toString.call(a)==="[object Object]"}function h(a){__p&&__p();var b=Array.isArray(a),c=g(a);if(b||c){c=Object.keys(a);if(c.length){c=c.sort().map(function(b){var c=a[b],d;g(c)||Array.isArray(c)?d=h(c):d=JSON.stringify(c);return b+":"+d});if(b)return"["+c.join(",")+"]";else return"{"+c.join(",")+"}"}}return JSON.stringify(a)}e.exports=h}),null);

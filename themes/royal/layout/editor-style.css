@@ -1,0 +1,78 @@
+/* ==============================================================
+
+	Used to style the TinyMCE editor.
+
+-----------------------------------------------------------------
+					*** TABLE OF CONTENTS ***
+-----------------------------------------------------------------
+
+	1.	Body
+ 	2.	Typography
+	
+=============================================================*/
+
+/******************
+    - 1. Body -
+******************/
+body {
+	background-color:#fff;
+	color:#696f6f;
+	margin:20px;
+}
+
+/************************
+    - 2. Typography -
+************************/
+body,
+button,
+input,
+select,
+textarea {
+	font-family:'Open Sans', Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:1.5;
+}
+
+p {
+	padding-bottom:15px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal;
+}
+
+ol, ul {
+	margin:0 0 10px 3em;
+}
+
+h1 {
+	font-size:60px;
+	font-size:2.0625rem;
+	font-weight:300;
+}
+
+h2 {
+	font-size:40px;
+	font-size:1.625rem;
+	font-weight:600;
+}
+
+h3 {
+	font-size:32px;
+	font-size:1rem;
+}
+
+h4 {
+	font-size:22px;
+	font-size:0.875rem;
+}
+
+h5 {
+	font-size:18px;
+	font-size:0.8125rem;
+}
+
+h6 {
+	font-size:16px;
+	font-size:0.75rem;
+}

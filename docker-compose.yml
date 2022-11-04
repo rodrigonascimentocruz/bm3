@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  gsoul-bm3_db:
+    image: mariadb:10
+    container_name: gsoul-bm3_db
+    volumes:
+      - ./mysql:/var/lib/mysql
+    ports:
+      - "3306:3306"
+    environment:
+      - MYSQL_ROOT_USER=root
+      - MYSQL_DATABASE=gsoul-bm3
+      - MYSQL_ROOT_PASSWORD=intest
+
+  gsoul-bm3_web:
+    image: webdevops/php-nginx:8.1
+    container_name: gsoul-bm3_web
+    ports:
+      - "80:80"
+    links:
+      - gsoul-bm3_db
+    volumes:
+      - ./wordpress/:/var/www/html
+      - ./themes/:/var/www/html/wp-content/themes
+      - ./plugins/:/var/www/html/wp-content/plugins
+    environment:
+      - WEB_DOCUMENT_ROOT=/var/www/html/
+      - PHP_MEMORY_LIMIT=1G
